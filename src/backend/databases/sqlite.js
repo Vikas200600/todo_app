@@ -8,8 +8,8 @@ let sequelise = new Sequelise({
 let User = sequelise.define("users", {
     id : {
         type : Sequelise.NUMBER,
-        unique : true,
         allownull :false,
+        unique : true,
         primaryKey : true        
     },
     name : {

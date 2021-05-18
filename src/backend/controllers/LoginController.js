@@ -14,12 +14,14 @@ exports.signUp = (req, res) => {
         let id;
         User.count(
         ).then(total => {
-            id = total >= 0 ? ++total : 1 ;
+            console.log("POST signup usercount: "+total);
+            id = total > 0 ? ++total : 1 ;
+            console.log("POST signup id: "+id)
         }).catch(err => {
             return res.redirect('/signup');
         })
         User.create({
-            id,
+            userId,
             name,
             email,
             password
