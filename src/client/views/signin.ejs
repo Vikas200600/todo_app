@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Page</title>
+</head>
+<body>
+    <table>
+        <form method="POST" action="/signin">
+            <tr>
+                <td><label for="emailIn">Email</label></td>
+                <td>
+                    <input type="text" id="emailIn" name="email" required autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="passwordIn">Password</label></td>
+                <td>
+                    <input type="password" id="passwordIn" name="Password" required autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit">Sign In</button></td>
+                
+            </tr>
+        </form>
+        
+    </table>
+    <form method="GET" action="/signup">
+        <button type="submit">Sign UP</button>
+    </form>
+</body>
+</html>

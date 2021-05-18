@@ -1,0 +1,38 @@
+{
+  "name": "todoref",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha .specs/*.spec.js",
+    "test1": "mocha .specs/task1.spec.js",
+    "test2": "mocha .specs/task2.spec.js",
+    "test3": "mocha .specs/task3.spec.js",
+    "test4": "mocha .specs/task4.spec.js",
+    "test5": "mocha .specs/task5.spec.js",
+    "test6": "mocha .specs/task6.spec.js",
+    "test7": "mocha .specs/task7.spec.js",
+    "test8": "mocha .specs/task8.spec.js",
+    "test9": "mocha .specs/task9.spec.js",
+    "app": "node src/app.js"
+  },
+  "author": "Vikas M",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "^0.0.1-security",
+    "jsdom": "^16.5.3",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.1.3",
+    "wget-improved": "^3.2.1"
+  }
+}
